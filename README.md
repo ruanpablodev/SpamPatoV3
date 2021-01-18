@@ -1,5 +1,5 @@
-# Spamrito v3.0
-Spamrito e um SPAM de alta qualidade, utilizando API de serviços grandes como **Uber**, **99**, **Aiqfome**, **RecargaMulti**, **Vivo** e **Claro**.
+# SpamPato v1.0
+Fazemos Spam com: **Uber**, **99**, **Aiqfome**, **RecargaMulti**, **Vivo** e **Claro**.
 
 ## Requisitos
 * NodeJS Instalado
@@ -7,8 +7,8 @@ Spamrito e um SPAM de alta qualidade, utilizando API de serviços grandes como *
 ## Instalação
 * ```apt update && apt upgrade```
 * ```apt install git -y```
-* ```git clone https://github.com/KiritoOfficial/spamrito```
-* ```cd spamrito```
+* ```git clone https://github.com/patulinomods/SpamPato```
+* ```cd SpamPato```
 * ```chmod +x *```
 * ```bash install.sh```
 Start: ```node spam.js```
