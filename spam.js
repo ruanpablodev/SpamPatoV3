@@ -466,27 +466,27 @@ async function op6(numero, quantidade) {
 function options() {
 	console.clear();
 	
-	console.log('_─卐_─卐_─卐_─卐_─卐_─卐_─卐_─卐_─卐\n');
-	console.log(' _____                          ______         _          '.error)
+	console.log('_─卐_─卐_─卐_─卐_─卐_─卐_─卐_─卐_─卐☹\n');
+	console.log(' _____                          ______         _  ☹       '.error)
 	console.log('/  ___|                         | ___         | |         '.error)
 	console.log('  `--.  _ __    __ _  _ __ ___  | |_/ /  __ _ | |_   ___  '.error)
 	console.log(" `--.    '_    / _` || '_ ` _   |  __/  / _` || __| / _   ".error)
 	console.log("/ __/ /| |_) || (_| || | | | | || |    | (_| || |_ | (_) |".error)
 	console.log(" ____/ | .__/   __,_||_| |_| |_| _|      __,_||___|  ___/ ".error)
 	console.log("       | |                                                ".error)
-	console.log("       |_|                                                ".error)
-   	console.log('                            Mᴇʟʜᴏʀ Sᴘᴀᴍ Dᴇ Sᴍs\n'.help);
+	console.log("       |_|             ☹                                  ".error)
+   	console.log('         ☹                   Mᴇʟʜᴏʀ Sᴘᴀᴍ Dᴇ Sᴍs V3\n'.help);
 	
 	console.log('_─卐_─卐_─卐_─卐_─卐_─卐_─卐_─卐_─卐\n'.success);
-	console.log('┌»Escolha A sua opçao de 0 a 6 ┐'.success)
-	console.log('├»[1] » Spam Vivo              │'.success);
-	console.log('├»[2] » Spam Claro             │'.success);
-	console.log('├»[3] » Spam 99 Food           │'.success);
-	console.log('├»[4] » Spam AiqFome           │'.success);
-	console.log('├»[5] » Spam Uber Eats         │'.success);
-	console.log('├»[6] » Spam RecargaMulti      │'.success);
-	console.log('└┐                            ┌┘'.success);
-	console.log(' └»[0] » Sair              ﾒ  ┘'.success);
+	console.log('┌»Escolha A sua opçao de 0 a 6 ┐»☹'.success)
+	console.log('├»[1] » Spam Vivo              │»☹'.success);
+	console.log('├»[2] » Spam Claro             │»☹'.success);
+	console.log('├»[3] » Spam 99 Food           │»☹'.success);
+	console.log('├»[4] » Spam AiqFome           │»☹'.success);
+	console.log('├»[5] » Spam Uber Eats         │»☹'.success);
+	console.log('├»[6] » Spam RecargaMulti      │»☹'.success);
+	console.log('└┐                            ┌┘»☹'.success);
+	console.log(' └»[0] » Sair               ﾒ ┘'.success);
 	return readLine.question('Qual Opçao? (0 a 6): '.error);
 }
 
@@ -580,7 +580,8 @@ if (spam.option == 1) {
 	for (var i = 0; i < 1; i++) {
 		op6(numero, quantidade); // Iniciar spam
 	}
-	
+} else if (spam.option == 7) {
+	console.log('Criador: PatoMaker'.success)
 } else if (spam.option == 0) {
 	process.exit(console.log('Tudo bem! saindo...'.error)); // Finalizar processo.
 } else {
